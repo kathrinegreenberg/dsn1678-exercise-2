@@ -59,6 +59,7 @@ body {
   width: 7.3%;
 
   background-color: rgba(204, 204, 204, 0);
+  transition: all 250ms linear;
 }
 
 .chart__item:hover,
@@ -123,6 +124,14 @@ body {
   opacity: 0;
 
   text-align: center;
+  
+  transition: all 250ms linear;
+
+}
+
+.chart__item:hover .chart__count {
+	opacity: 1;
+	top: -4em;
 }
 
 .chart__count::after {
