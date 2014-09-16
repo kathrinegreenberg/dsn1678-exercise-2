@@ -61,6 +61,12 @@ body {
   background-color: rgba(204, 204, 204, 0);
 }
 
+.chart__item:hover,
+.chart__item:focus,
+.chart__item:active {
+	background-color: #878a97;
+}
+
 .chart__link,
 .chart__link:link,
 .chart__link:visited {
@@ -76,6 +82,10 @@ body {
   width: 100%;
 
   text-align: center;
+ }
+
+.chart__item:hover .chart__label {
+	color: #fff;
 }
 
 .chart__bar-wrap {
@@ -92,6 +102,10 @@ body {
   top: 0;
 
   background-color: rgba(127, 219, 255, 0.6);
+}
+
+.chart__item:hover .chart__bar {
+	background-color: #87d6fe;	
 }
 
 .chart__count {
